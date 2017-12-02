@@ -1,3 +1,7 @@
+mod day_one;
+pub mod util;
+
 fn main() {
-    println!("Hello, world!");
+    let result = day_one::solve();
+    println!("RESULT: {}", result);
 }
