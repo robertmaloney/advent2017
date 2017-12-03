@@ -1,7 +1,8 @@
 mod day_one;
+mod day_two;
 pub mod util;
 
 fn main() {
-    let result = day_one::solve();
-    println!("RESULT: {}", result);
+    day_one::solve();
+    day_two::solve();
 }
