@@ -9,7 +9,7 @@ fn sort_phrase(input: &str) -> String {
 }
 
 pub fn solve() {
-  let input = util::string_from_file("./src/day_four/input.txt").expect("Couldn't find day_three/input.txt");
+  let input = util::string_from_file("./src/day_four/input.txt").expect("Couldn't find day_four/input.txt");
 
   let result: u32 = input.lines().map(|line| {
     let dup = line
